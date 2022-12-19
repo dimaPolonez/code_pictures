@@ -42,9 +42,23 @@
 #### yarn tsc -w //Start watcher mode
 
 ## Jest and Supertest - <a href="https://jestjs.io/ru/">documentation</a>
-#### yarn add jest ts-jest @types/jest supertest @types/supertest  //Install Jest and Supertest
+#### yarn add jest ts-jest @types/jest supertest @types/supertest  //Install Jest and Supertest архитектура приложения
 #### yarn ts-jest config:init //Init Jest and create jest.config.js
 #### yarn test - Start test
 
 ## Express-validator - <a href="https://express-validator.github.io/docs/">documentation</a>
 #### npm install --save express-validator //Install Express-validator
+
+# Application architecture
+
+## folder .
+#### _tests_ //test files to B2B
+#### .gitignore //not pushed to remote directory
+#### *.json //configuration files
+
+## folder src
+#### controllers //endpoints request and response
+#### middleware //middlewares validation/autentification
+#### models //interface and type variables
+#### routes //routes server and index.ts
+#### services //algoritms and work to data layers
