@@ -60,5 +60,5 @@
 #### controllers //endpoints request and response
 #### middleware //middlewares validation/autentification
 #### models //interface and type variables
-#### routes //routes server and index.ts
+#### routes //routes server, index.ts, request and response
 #### services //algoritms and work to data layers
