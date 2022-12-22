@@ -51,6 +51,13 @@
 ## Express-validator - <a href="https://express-validator.github.io/docs/">documentation</a>
 #### npm install --save express-validator //Install Express-validator
 
+## Mongo DB
+### yarn add mongodb
+### npm install -D @types/node
+
+## dotenv
+### npm i dotenv
+
 # Application architecture
 
 ## folder .
